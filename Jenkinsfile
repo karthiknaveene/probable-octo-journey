@@ -32,7 +32,7 @@ pipeline {
                 sh 'sleep 2'
                 sh 'echo "Pretending to deploy..."'
                 // Intentionally fail the build
-                // sh 'exit 1'
+                 sh 'exit 1'
             }
         }
         
